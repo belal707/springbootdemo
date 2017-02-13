@@ -14,7 +14,7 @@ node
 		try 
 		{  
 		    sh "mvn test"
-		    docker.build("belalansari/springbootdemo:1").push()
+		    sudo docker.build("belalansari/springbootdemo:1").push()
 			
 		} catch (error)
 		{
