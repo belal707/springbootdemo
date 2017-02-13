@@ -1,0 +1,14 @@
+com\javaadvent\bootrest\todo\TodoDTO.class
+com\javaadvent\bootrest\todo\TodoService.class
+com\javaadvent\bootrest\todo\Todo$Builder.class
+com\javaadvent\bootrest\util\PreCondition.class
+com\javaadvent\bootrest\error\FieldErrorDTO.class
+com\javaadvent\bootrest\error\RestErrorHandler.class
+com\javaadvent\bootrest\todo\TodoRepository.class
+com\javaadvent\bootrest\TodoAppConfig.class
+com\javaadvent\bootrest\todo\MongoDBTodoService.class
+com\javaadvent\bootrest\todo\TodoController.class
+com\javaadvent\bootrest\todo\Todo$1.class
+com\javaadvent\bootrest\todo\TodoNotFoundException.class
+com\javaadvent\bootrest\error\ValidationErrorDTO.class
+com\javaadvent\bootrest\todo\Todo.class
