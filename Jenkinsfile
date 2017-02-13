@@ -7,14 +7,14 @@ node
   	}
 	stage('Create Docker Image') 
 	{
-			docker.build("belalansari/springboottestapi:${env.BUILD_NUMBER}")
+			docker.build("belalansari/springbootdemo:1")
 	}
 	stage('Run Tests') 
 	{
 		try 
 		{  
 			sh "mvn test"
-		    docker.build("belalansari/springboottestapi:${env.BUILD_NUMBER}").push()
+		    docker.build("belalansari/springbootdemo:1").push()
 			
 		} catch (error)
 		{
