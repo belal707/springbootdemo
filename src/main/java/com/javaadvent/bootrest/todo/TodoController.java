@@ -36,7 +36,7 @@ final class TodoController {
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     TodoDTO create(@RequestBody @Valid TodoDTO todoEntry) {
-        LOGGER.info("Creating a new todo entry with information: {}", todoEntry);
+        LOGGER.info("----Creating a new todo entry with information: {}", todoEntry);
 
         TodoDTO created = service.create(todoEntry);
         LOGGER.info("Created a new todo entry with information: {}", created);
