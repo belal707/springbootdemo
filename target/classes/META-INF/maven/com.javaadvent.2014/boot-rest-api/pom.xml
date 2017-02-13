@@ -13,6 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Configure the main class of our Spring Boot application -->
 		<start-class>com.javaadvent.bootrest.TodoAppConfig</start-class>
+		<docker.image.prefix>SpringbootTestApi</docker.image.prefix>
 	</properties>
 
 	<!-- Inherit defaults from Spring Boot -->
