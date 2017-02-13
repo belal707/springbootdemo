@@ -13,7 +13,8 @@ node
 	{
 		try 
 		{  
-			sh "mvn test"
+		    sh "mvn test"
+		    docker login -u "belalansari" -p "zamila1234"
 		    docker.build("belalansari/springbootdemo:1").push()
 			
 		} catch (error)
