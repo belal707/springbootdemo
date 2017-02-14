@@ -14,7 +14,7 @@ node
 		try 
 		{  
 		    sh "mvn test"
-	        sh " docker login -u $DOCKER_ID -p $DOCKER_PWD"
+			sh " docker login -u ${DOCKER_ID} -p ${DOCKER_PWD}"
 		    docker.build("belalansari/abctravals:1").push()
 			
 		} catch (error)
