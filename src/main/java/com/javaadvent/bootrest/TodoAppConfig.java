@@ -24,5 +24,6 @@ public class TodoAppConfig {
 
     public static void main(String[] args) {
         SpringApplication.run(TodoAppConfig.class, args);
+        
     }
 }
