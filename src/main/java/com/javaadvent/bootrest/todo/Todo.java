@@ -102,7 +102,7 @@ final class Todo {
 
         if (description != null) {
             isTrue(description.length() <= MAX_LENGTH_DESCRIPTION,
-                    "Description cannot be longer than %d characters",
+                    "Description ff cannot be longer than %d characters",
                     MAX_LENGTH_DESCRIPTION
             );
         }
