@@ -107,7 +107,6 @@ final class MongoDBTodoService implements TodoService {
         dto.setId(model.getId());
         dto.setTitle(model.getTitle());
         dto.setDescription(model.getDescription());
-
         return dto;
     }
 }
